@@ -2,10 +2,15 @@
 *.d
 
 # Compiled Object files
-*.slo
-*.lo
+# C
 *.o
 *.obj
+*.lo
+*.slo
+*.su
+
+# C++
+*.ii
 
 # Precompiled Headers
 *.gch
@@ -16,17 +21,41 @@
 *.dylib
 *.dll
 
-# Fortran module files
-*.mod
-*.smod
-
 # Compiled Static libraries
-*.lai
-*.la
 *.a
 *.lib
+*.la
+*.lai
+
+# Fortran
+*.mod
+*.smod
 
 # Executables
 *.exe
 *.out
 *.app
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C++
+*.ii
+
+# C
+*.su
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
