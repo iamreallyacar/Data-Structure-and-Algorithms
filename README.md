@@ -1,4 +1,6 @@
-# Data-Structure-and-Algorithms
+# README
+
+This project aims to review well known data structures and algorithms, as well as implement them in various programming languages.
 
 Objective: This repository aims to demonstrate common algorithms and data structures. Written in Python, C++, and Java.
 
